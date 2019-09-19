@@ -33,7 +33,7 @@ h2 {
 #quote {
   height: 200px;
 }
-#quote p {
+#quote #movie-quote {
   text-align: center;
 }
 
@@ -42,6 +42,10 @@ h2 {
 }
 
 /* About section */
+#about {
+  height: 400px;
+  text-align: justify;
+}
 
 /*Contact section */
 
