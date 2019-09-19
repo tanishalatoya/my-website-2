@@ -48,5 +48,26 @@ h2 {
 }
 
 /*Contact section */
+#contact {
+  height: 500px;
+  padding: 50px 100px;
+}
 
+#contact p {
+  font-size: 18px;
+  padding-top: 50px;
+}
+
+#contact #col-1 {
+  width: 500px;
+}
+
+#contact #col-2 {
+  padding-left: 150px;
+  width: 350px;
+}
+
+#contact form {
+  font-size: 16px;
+}
 /*Footer section */
