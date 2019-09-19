@@ -25,7 +25,7 @@ h2 {
   width: 600px;
 }
 
-#quote, #about, #footer {
+nav, #quote, #about, #footer {
   padding: 0 100px;
 }
 
@@ -36,7 +36,18 @@ h2 {
 }
 
 /* Navigation within the header */
+nav {
+  text-align: right;
+}
 
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
 
 /* Quotes section */
 #quote {
