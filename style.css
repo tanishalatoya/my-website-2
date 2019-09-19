@@ -37,6 +37,7 @@ nav, #quote, #about, #footer {
 
 /* Navigation within the header */
 nav {
+  font-size: 16px;
   text-align: right;
 }
 
