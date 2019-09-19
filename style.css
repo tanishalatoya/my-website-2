@@ -37,9 +37,6 @@ h2 {
 
 /* Navigation within the header */
 
-#header #nav ul li {
-  display: inline-block;
-}
 
 /* Quotes section */
 #quote {
@@ -97,4 +94,5 @@ h2 {
 #social-media ul li {
   display: inline-block;
   float: right;
+  padding: 0 5px;
 }
