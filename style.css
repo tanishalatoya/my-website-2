@@ -7,8 +7,10 @@ html {
 }
 
 h1 {
+  color: 	#e7ebf2;
   font-family: 'Niconne', serif;
   font-size: 96px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -49,12 +51,14 @@ nav ul li {
 }
 
 nav ul li a {
+  color: white;
   text-decoration: none;
 }
 
 /* Quotes section */
 #quote {
-  height: 200px;
+  background-color: #e7ebf2;
+  height: 300px;
 }
 #quote #movie-quote {
   text-align: center;
@@ -66,12 +70,14 @@ nav ul li a {
 
 /* About section */
 #about {
+  background-color: #517fbf;
   height: 400px;
   text-align: justify;
 }
 
 /*Contact section */
 #contact {
+  background-color: #79a1d8;
   height: 500px;
   padding: 50px 100px;
 }
@@ -95,7 +101,8 @@ nav ul li a {
 }
 /*Footer section */
 #footer {
-  height: 100px;
+  background-color: #79a1d8;
+  height: 60px;
   padding-top: 50px;
 }
 
