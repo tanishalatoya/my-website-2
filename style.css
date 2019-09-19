@@ -23,7 +23,7 @@ h2 {
   width: 600px;
 }
 
-#quote, #about {
+#quote, #about, #footer {
   padding: 0 100px;
 }
 
@@ -71,3 +71,17 @@ h2 {
   font-size: 16px;
 }
 /*Footer section */
+#footer {
+  height: 100px;
+}
+
+#footer p {
+  font-size: 12px;
+}
+#footer #social-media {
+  width: 500px;
+}
+#social-media ul li {
+  display: inline-block;
+  float: right;
+}
