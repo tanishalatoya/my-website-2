@@ -10,7 +10,7 @@ h1 {
   color: 	#e7ebf2;
   font-family: 'Niconne', serif;
   font-size: 96px;
-  padding-top: 50px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -48,6 +48,7 @@ nav {
 
 nav ul li {
   display: inline-block;
+  padding: 0 20px;
 }
 
 nav ul li a {
