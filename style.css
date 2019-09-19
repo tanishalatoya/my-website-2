@@ -32,6 +32,8 @@ nav, #quote, #about, #footer {
 /* Header section */
 
 #header {
+  background: url(images/erik-witsoe-GF8VvBgcJ4o-unsplash.jpg) center no-repeat;
+  background-size: 1200px auto;
   height: 600px;
 }
 
