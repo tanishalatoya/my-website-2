@@ -23,9 +23,23 @@ h2 {
   width: 600px;
 }
 
+#quote, #about {
+  padding: 0 100px;
+}
+
 /* Header section */
 
 /* Quotes section */
+#quote {
+  height: 200px;
+}
+#quote p {
+  text-align: center;
+}
+
+#quote #movie-title {
+  text-align: right;
+}
 
 /* About section */
 
