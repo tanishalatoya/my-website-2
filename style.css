@@ -8,6 +8,8 @@ html {
 
 h1 {
   font-family: 'Niconne', serif;
+  font-size: 96px;
+  text-align: center;
 }
 
 h2 {
@@ -28,6 +30,16 @@ h2 {
 }
 
 /* Header section */
+
+#header {
+  height: 600px;
+}
+
+/* Navigation within the header */
+
+#header #nav ul li {
+  display: inline-block;
+}
 
 /* Quotes section */
 #quote {
@@ -73,6 +85,7 @@ h2 {
 /*Footer section */
 #footer {
   height: 100px;
+  padding-top: 50px;
 }
 
 #footer p {
