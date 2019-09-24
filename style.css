@@ -1,6 +1,6 @@
 /*General page styling */
 html {
-  font-family: 'Montserrat', monospace;
+  font-family: 'Open Sans', sans-serif;
   font-size: 22px;
   line-height: 40px;
   height: auto;
@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'Alegreya', serif;
 }
 
 .full-wdith {
