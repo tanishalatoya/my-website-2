@@ -8,8 +8,23 @@ var movQuotes = ["Jake Sully: All I ever wanted was a single thing worth fightin
 
 var movTitles = ["Avatar", "Avatar", "Boiler Room", "Inception", "Inception", "Alice in Wonderland", "Jerry Maguire", "A League of Their Own"];
 
-var movieQuote = getElementById("movie-quote");
-var movieTitle = getElementById("movie-title");
+var movie-quote = document.getElementById('movie-quote');
 
-movieQuote.innerText = messageText;
-movieTitle.innerText = messageText;
+var displayquote;
+
+movQuote[1] = displayquote;
+
+movie-quote.innerText = displayquote;
+
+//var movie-quote = getElementById("movie-quote");
+//var movie-title = getElementById("movie-title");
+//
+//var randomNum = Math.random;
+//
+//var randomNumberArray = randomNum * movQuotes.length;
+//var randomIndex = Math.floor(randomNumArray);
+//var randomMovQuote = movQuotes(randomIndex);
+//
+//
+//movieQuote.innerText = movQuotes(randomIndex);
+//movieTitle.innerText = messageTexttitle;

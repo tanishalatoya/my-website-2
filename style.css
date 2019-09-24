@@ -99,6 +99,10 @@ nav ul li a {
 #contact form {
   font-size: 16px;
 }
+
+form span {
+  font-size: 12px;
+}
 /*Footer section */
 #footer {
   background-color: #79a1d8;
