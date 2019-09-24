@@ -62,6 +62,8 @@ nav ul li a {
 }
 
 #quote #movie-quote {
+  font-size: 36px;
+  line-height: 60px;
   text-align: center;
 }
 
