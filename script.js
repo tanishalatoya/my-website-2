@@ -1,4 +1,4 @@
-var movQuotes = ["Jake Sully: All I ever wanted was a single thing worth fighting for.",
+let movQuotes = ["Jake Sully: All I ever wanted was a single thing worth fighting for.",
 "Trudy Chacon: You're not the only one with a gun,b***h.",
 "Jim Young: Anybody who tells you money is the root of all evil doesn't have any.",
 "Eames: You musn't be afraid to dream a little bigger, darling.",
@@ -6,25 +6,20 @@ var movQuotes = ["Jake Sully: All I ever wanted was a single thing worth fightin
  "Rod Tidwell: Show me the money!",
 "Jimmy Dugan: It's supposed to be hard. If it wasn't hard, everyone would do it. The hard ... is what makes it great."];
 
-var movTitles = ["Avatar", "Avatar", "Boiler Room", "Inception", "Inception", "Alice in Wonderland", "Jerry Maguire", "A League of Their Own"];
+// Movie titles are displayed in the respective order of the movie quotes shown in the movQuotes array.
 
-var movie-quote = document.getElementById('movie-quote');
+let movTitles = ["Avatar", "Avatar", "Boiler Room", "Inception", "Inception", "Alice in Wonderland", "Jerry Maguire", "A League of Their Own"];
 
-var displayquote;
+//Calculates a random index number for both arrays.
 
-movQuote[1] = displayquote;
+let randomNum = Math.floor(Math.random() * movQuotes.length);
 
-movie-quote.innerText = displayquote;
+let randomQuote = movQuotes[randomNum];
 
-//var movie-quote = getElementById("movie-quote");
-//var movie-title = getElementById("movie-title");
-//
-//var randomNum = Math.random;
-//
-//var randomNumberArray = randomNum * movQuotes.length;
-//var randomIndex = Math.floor(randomNumArray);
-//var randomMovQuote = movQuotes(randomIndex);
-//
-//
-//movieQuote.innerText = movQuotes(randomIndex);
-//movieTitle.innerText = messageTexttitle;
+let randomTitle = movTitles[randomNum];
+
+//Displays random quote from array.
+document.getElementById('movie-quote').textContent = randomQuote;
+
+//Displays corresponding movie title with the displayQuote produced.
+document.getElementById('movie-title').textContent = randomTitle;
